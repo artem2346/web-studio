@@ -1,0 +1,453 @@
+
+html{
+    box-sizing: border-box;
+}
+
+
+:root{
+    --primary-color:#434455;
+    --secundary-color:#2e2f42;
+    --accent-color:#4d5ae5;
+    --background-color:#ffffff;
+    --secondaccent-color:pink;
+}
+
+body{
+    margin: 0;
+    color: #434455;
+    background-color:#ffffff;
+    /* шрифти */
+ font-family: "Roboto", sans-serif;
+ letter-spacing: 0.02em;
+}
+.conteiner{
+    width: 1224px;
+    margin-right: auto;
+    margin-left: auto;
+    padding-right: 12px;
+    padding-left: 12px;
+  
+}
+
+
+
+/* основний колір(заголовки)  #434455; */
+/* другорядний колір<p> #2e2f42; */
+/* акцентний колір ;#4d5ae5 */
+/* задній фон  background-color:#ffffff; */
+
+/* Основний заголовок і головний опис сторінки початок*/
+
+.main {
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+.main .main-title{
+font-weight: 500;
+    font-size: 20px;
+    line-height: 1.4;
+    color:var(--secundary-color);
+    margin-top: 0;
+    margin-bottom: 8px;
+}
+.main .main-descr{
+    font-weight: 400;
+        font-size: 16px;
+        line-height: 1.5;
+        margin-top: 0;
+        margin-bottom:0;
+    width:264px;
+}
+ 
+.describe-title{
+    padding-bottom: 120px;
+   
+}
+
+ 
+ /* заголовок"What are we doing" і фото початок*/
+.describe-title .title{
+    color:var(--secundary-color);
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 1.1;
+        text-transform: capitalize;
+        text-align: center;
+}
+
+
+/* члени команди початок*/
+.team .team-title{
+    color:var(--secundary-color);
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 1.1;
+        text-transform: capitalize;
+        text-align: center;
+      margin-top: 0;
+      margin-bottom: 72px;
+}
+.team .members-team{
+    color:var(--secundary-color);
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 1.2;
+        /* text-align: center; */
+        color: var(--secundary-color);
+        margin-top: 0;
+        margin-bottom: 8px;
+        padding-top: 32px;
+        padding-bottom: 0;
+      
+        
+}
+.team .team-descr{
+    font-weight: 400;
+        font-size: 16px;
+        line-height: 1.5;
+        margin-top: 0;
+        margin-bottom: 8px;
+        padding-top: 0;
+}
+
+ul {
+    list-style: none;
+}
+
+
+.head-link .link{
+color:var(--secundary-color);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+text-decoration: none;
+padding-top: 24px;
+padding-bottom: 24px;
+display: block;
+
+}
+.item{
+    margin-right: 40px;
+}
+.head-link-info .item:last-child{
+    margin-right: 0;
+}
+.head-link .item:last-child{
+    margin-right: 0;
+}
+.head-link-info .link{
+    color: var(--primary-color);
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 1.5;
+        text-decoration: none;
+        display: block;
+      padding-top: 24px;
+            padding-bottom: 24px;
+        }
+.link:hover .icon-header{
+    fill: var(--secondaccent-color);
+}
+.head-link-info .link:hover {
+    color: var(--secondaccent-color);
+}
+
+.head-link{
+    display: flex;
+}
+
+
+/* логотип */
+.logo,.web{
+    font-family: "Raleway", sans-serif;
+        font-weight: 800;
+        font-size: 18px;
+        line-height: 1.17;
+        text-transform: uppercase;
+        text-decoration: none;
+}
+.logo {
+    color: var(--secundary-color);
+    margin-right: 76px;
+    padding-top: 24px;
+    padding-bottom: 24px;
+} 
+.web {
+    color: var(--accent-color);
+    word-spacing: -4px;
+}
+.logo:hover .web,
+.logo:hover {
+    color:red;
+}
+.list{
+    margin:0;
+    padding:0;
+    list-style:none;
+    
+}
+
+.head-link-info {
+    display: flex;
+    margin-left: auto;
+}
+/* логотип */
+.head-link .link:hover,
+.head-link .link:focus {
+    color: var(--secondaccent-color);
+}
+/* клас з текстом solution+кнопка order service */
+.btn{
+    display: inline-block;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1,5;
+    letter-spacing: 0.04em;
+    color: #fff;
+    background-color: var(--accent-color);
+    text-decoration: none;
+    padding: 16px 32px;
+    border-radius: 4px;
+       min-width:169px;
+}
+.btn:hover,
+.btn:focus{
+    color:red;
+    background-color: var(--secondaccent-color);
+}
+.solution{
+    text-align: center;
+    padding-top: 188px;
+    padding-bottom: 188px;
+    
+
+}
+
+.solution-title{
+    font-weight: 700;
+        font-size: 56px;
+        line-height: 1.1;
+        text-align: center;
+        color: #ffffff;
+        margin-top: 0;
+     margin-bottom : 48px;
+}
+/* клас з текстом solution+кнопка order service */
+.head-link .link.current{
+    color:var(--accent-color);
+}
+
+.footer{
+    font-weight: 400;
+        font-size: 16px;
+        line-height: 1.5;
+   
+            padding-top: 100px;
+            padding-bottom: 100px;
+            background-color: #2e2f42;
+        
+}
+.title{
+    margin-top: 0;
+   margin-bottom: 72px;
+    text-align: center;
+}
+.team{
+background-color: #f4f4fd;
+padding-top: 120px;
+padding-bottom: 120px;
+}
+
+.foot{
+    margin: 0;
+    width: 264px;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 1,5;
+        color:#f4f4fd;
+}
+
+.dif{
+color:#f4f4fd;
+margin-bottom: 16px;
+margin-right:0;
+padding: 0;
+}
+.position {
+        display: flex;
+        align-items: center;
+        
+     
+    }
+.flex{
+    display: flex;
+}
+  .strategy{
+    justify-content:space-evenly;
+  }
+  .centred{
+    text-align: center;
+  }
+  .back{
+    background-color:#fff;
+    border-radius: 0 0 4px 4px;
+box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
+  }
+  .pading-head{
+    padding-left: 36px;
+  }
+.pading{
+    padding-left:36px;
+}
+.overlay{
+    max-width: 1600px;
+    height: 600px;
+ background-image:linear-gradient(to right,rgba(46, 47, 66, 0.7),rgba(46, 47, 66, 0.7)),url(../people-office\ 1.jpg);  
+}
+/* .box{
+    border-radius: 4px;
+        width: 264px;
+        height: 112px;
+    background-color: #f4f4fd;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-bottom: 8px;
+    background-size: auto;
+}
+.antenna{
+background-image: url(../antenna\ 1.svg);
+}
+.clock{
+    background-image: url(../clock\ 1.svg);
+}
+.diagram{
+    background-image: url(../diagram\ 1.svg);
+}
+.astronaut{
+    background-image: url(../astronaut\ 1.svg);
+} */
+
+
+
+
+
+
+.background{
+background-color: #f4f4fd;
+border-radius: 4px;
+    width: 264px;
+    height: 112px;
+    margin-bottom: 8px;
+}
+.symbol{
+    width: 64px;
+    height: 64px;
+    margin: 24px 100px ;
+}
+
+
+.soc-title {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color:#fff;
+    margin-top: 0;
+    margin-bottom: 16px;
+}
+.social-network-block{
+    display: inline-block;
+    margin-left: 120px;
+}
+.social-network{
+    padding-left: 0;
+    margin: 0;
+} 
+.li-media{
+    margin-right:16px;
+}
+.li-media:nth-child(4){
+    margin-right: 0;
+}
+
+.media {
+    width: 40px;
+    height: 40px;
+    background-color: #4d5ae5;
+    display: block;
+    border-radius: 50%;
+    color: #f4f4fd;
+
+}
+.media:hover .media-svg{
+    fill: red;
+}
+.media:hover{
+    background-color: yellow;
+}
+.media-svg {
+   
+    fill:currentColor;
+margin: 8px;
+}
+.li-media-up{
+    margin-right: 24px;
+}
+.li-media-up:nth-child(4){
+    margin-right: 0;
+}
+.socia-team{
+    justify-content: center;
+ padding-bottom: 32px;
+}
+.up{
+    margin: 12px;
+}
+.clients{
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+.customers-title{
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.1;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    text-align: center;
+    color: #2e2f42;
+    margin-top: 0;
+    margin-bottom: 72px;
+}
+.clients-icon{
+   
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 0;
+   justify-content: center;
+   justify-content: space-evenly;
+}
+.clients-border{
+    display: block;
+width: 168px;
+    height: 88px;
+    border: 1px solid #8e8f99;
+        border-radius: 4px;
+}
+.icon-svg{
+    margin: 16px 32px;
+    fill:#8e8f99;
+}
+
+.clients-border:hover .icon-svg{
+    fill: #4d5ae5;
+}
+.clients-border:hover{
+    color: #4d5ae5;
+}
+.icon-mail{
+    margin-right: 10px;
+}
+.icon-header{
+    fill:#757575;
+}
+
